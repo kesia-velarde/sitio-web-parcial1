@@ -1,0 +1,111 @@
+html {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 1.5;
+}
+body {
+    background-image: url('../imagenes/fondo.png');
+    background-repeat: repeat;
+    background-size: auto; 
+    background-position: center;
+    margin: auto;
+    color: rgb(16, 17, 17);
+    font-size: 1.2rem;
+
+} 
+
+header {
+    background-color: rgb(142, 117, 244);
+    padding: 0.3rem; 
+    text-align: center;
+} 
+
+header h1 {
+    padding: 1rem;
+    text-align: center; 
+    font-weight: bold;
+    color: aliceblue; 
+    font-size: 2.3rem;
+}
+
+nav {
+    padding: 0.5rem;
+    text-align: center; 
+    background-color: rgb(211, 193, 252);
+} 
+nav a { 
+    display: inline-block;
+    margin-right: 12%;
+    margin-left: 6%; 
+    color: rgb(107, 88, 248);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: rgb(66, 128, 251); 
+} 
+nav a:visited {
+    color: rgb(19, 100, 232);
+} 
+
+main {
+    padding: 2rem;
+    background-color: rgba(136, 154, 245, 0.891);
+} 
+
+h1,h2,h3 {
+    font-family: url('https://fonts.google.com/specimen/Abel'); 
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: rgb(74, 26, 119);
+    text-align: center;
+    text-overflow: clip;
+} 
+
+.contenedor2 section h2 {
+    background-color: beige; 
+    font-size: 2.5rem; 
+} 
+
+p span {
+    color: rgb(10, 23, 90); 
+    font-weight: bold;
+}
+blockquote {
+    font-style: italic;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+img {
+    position: relative;
+    margin-left: 34%;
+    margin-top: 2%;
+    background-repeat: round;
+}
+
+section ul {
+    font-size: 1.5rem; 
+    font-weight: bolder; 
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+ul li::before {
+    content: "\2b50"; /* este es el codigo para el emoji de estrella de la lista*/ 
+    margin-right: 0.4rem;  
+}
+article p {
+    font-size: 1.4rem;
+
+}
+footer {
+    background-color: rgb(136, 124, 246);
+    padding: 0.3rem; 
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 1rem;
+}
+
