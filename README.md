@@ -1,3 +1,3 @@
 Kesia Saleth Velarde Zambrana
-Primer parcial-Informatica General 
+Recuperatorio Segundo parcial-Informatica General 
 Artes multimediales-UNA
